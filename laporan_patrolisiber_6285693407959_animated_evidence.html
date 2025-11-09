@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>🔴 Laporan Bukti (Animated) — PatroliSiber.id</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--accent:#0b61ff;--danger:#ff5555;}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial;background:radial-gradient(1200px 600px at 10% 10%, rgba(11,97,255,0.06), transparent), linear-gradient(180deg,#071025 0%, #061025 60%); color:#e6eef8;}
+    .wrap{max-width:980px;margin:28px auto;padding:20px}
+    .card{background:linear-gradient(180deg,var(--card), rgba(8,12,20,0.6)); border:1px solid rgba(255,255,255,0.04); border-radius:14px; padding:18px; box-shadow: 0 10px 30px rgba(2,6,23,0.6); overflow:hidden}
+    header{display:flex;align-items:center;gap:16px; margin-bottom:12px}
+    .logo{width:76px;height:76px;border-radius:12px;background:linear-gradient(135deg,#012a56,#0b61ff);display:flex;align-items:center;justify-content:center;box-shadow:0 8px 30px rgba(11,97,255,0.12);}
+    h1{margin:0;font-size:18px}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:13px}
+    .flag-badge{margin-left:auto;background:linear-gradient(90deg,var(--danger), #ff7a7a);padding:8px 12px;border-radius:999px;color:white;font-weight:800;box-shadow:0 8px 30px rgba(255,50,50,0.12);display:inline-flex;align-items:center;gap:8px;animation:badge-pulse 2.4s infinite}
+    @keyframes badge-pulse{0%{transform:scale(1)}50%{transform:scale(1.04)}100%{transform:scale(1)}}
+    .meta{display:flex;gap:12px;align-items:center;color:var(--muted);font-size:13px;margin-top:8px}
+    .grid{display:grid;grid-template-columns:1fr 340px;gap:14px;margin-top:14px}
+    .section{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);border-radius:10px;padding:12px;border:1px solid rgba(255,255,255,0.03);}
+    .img-wrap{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);border-radius:10px;padding:10px;border:1px solid rgba(255,255,255,0.03);}
+    img{width:100%;height:auto;border-radius:8px;display:block;border:1px solid rgba(255,255,255,0.03)}
+    .caption{font-size:13px;color:var(--muted);margin-top:8px}
+    .cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .kv{display:grid;grid-template-columns:140px 1fr;gap:6px 12px;color:var(--muted);align-items:center}
+    .pill{padding:6px 10px;border-radius:8px;background:rgba(255,255,255,0.03);font-weight:700;font-size:13px;border:1px solid rgba(255,255,255,0.02)}
+    .pill.warn{background:linear-gradient(90deg, rgba(255,210,95,0.06), rgba(255,210,95,0.02));color:#ffd36b}
+    .timeline{margin-top:8px;display:flex;flex-direction:column;gap:8px}
+    .event{display:flex;gap:12px;align-items:flex-start}
+    .event .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);margin-top:6px;box-shadow:0 6px 18px rgba(11,97,255,0.12)}
+    .event .body{background:rgba(255,255,255,0.01);padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.02);flex:1}
+    footer{margin-top:14px;color:var(--muted);font-size:13px;text-align:center}
+    .card, .section, .img-wrap{transform:translateY(6px);opacity:0;animation:enter .6s ease forwards}
+    .card{animation-delay:.04s}
+    .section{animation-delay:.08s}
+    .img-wrap{animation-delay:.12s}
+    @keyframes enter{to{transform:none;opacity:1}}
+    @media (max-width:860px){.grid{grid-template-columns:1fr} .cols{grid-template-columns:1fr} .flag-badge{margin-left:0}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <div class="logo" aria-hidden="true"><svg width="44" height="44" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="lg" x1="0" x2="1"><stop offset="0" stop-color="#012a56"/><stop offset="1" stop-color="#0b61ff"/></linearGradient></defs><rect width="64" height="64" rx="10" fill="url(#lg)"/><text x="8" y="46" fill="#fff" font-size="9" font-weight="700">PATROLI</text></svg></div>
+        <div>
+          <h1>PatroliSiber.id — Bukti (FLAGGED)</h1>
+          <p class="lead">Hanya menampilkan bukti screenshot yang dilampirkan pelapor</p>
+          <div class="meta"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--accent);margin-right:8px"></span>Tanggal: 2025-11-09 07:00:33 · Laporan #: PS-20251109-0001</div>
+        </div>
+        <div class="flag-badge" title="Flagged as suspected scammer">⚠️ DIDUGA PENIPU</div>
+      </header>
+
+      <div class="grid">
+        <div>
+          <section class="section">
+            <h2>Bukti Utama</h2>
+            <div class="img-wrap" style="margin-bottom:12px">
+              <img src="/mnt/data/1000905170.jpg" alt="QR Code / Bukti Pembayaran (QR)">
+              <div class="caption"><strong>Screenshot 1 — QR Code / Bukti Pembayaran</strong><br>Nama pada QR: Syifa oktaviani (NMID/ID: ID1025437765247)</div>
+            </div>
+
+            <div class="cols" style="margin-bottom:12px">
+              <div class="img-wrap">
+                <img src="/mnt/data/1000905175.jpg" alt="Profil & Gallery">
+                <div class="caption"><strong>Screenshot 2 — Profil & Gallery</strong><br>File: 1000905175.jpg</div>
+              </div>
+              <div class="img-wrap">
+                <img src="/mnt/data/1000905176.jpg" alt="Chat bukti transfer dan percakapan">
+                <div class="caption"><strong>Screenshot 3 — Chat & Bukti Transfer</strong><br>File: 1000905176.jpg</div>
+              </div>
+            </div>
+
+            <h3>Catatan Singkat</h3>
+            <div class="timeline">
+              <div class="event"><div class="dot"></div><div class="body"><strong>Jenis bukti:</strong> QR code, profil media, tangkapan layar percakapan & bukti transfer.</div></div>
+              <div class="event"><div class="dot"></div><div class="body"><strong>Rekomendasi singkat:</strong> kumpulkan metadata gambar & bukti transaksi, lalu laporkan ke pihak berwenang.</div></div>
+            </div>
+          </section>
+
+          <section class="section" style="margin-top:12px">
+            <h2>Instruksi Penggunaan Dokumen</h2>
+            <div class="kv">
+              <div><strong>Tujuan</strong></div><div>Pengumpulan bukti visual untuk laporan internal/penegakan.</div>
+              <div><strong>Status klaim</strong></div><div>Diduga — tidak final.</div>
+              <div><strong>Kontak</strong></div><div>intel@patrolisiber.id</div>
+            </div>
+          </section>
+        </div>
+
+        <aside class="section" style="padding:14px">
+          <div style="display:flex;gap:10px;align-items:center;justify-content:space-between">
+            <div>
+              <div style="font-size:13px;color:var(--muted)">Pelapor</div>
+              <div style="font-weight:800">Investigator Cyber Team</div>
+              <div style="margin-top:6px;color:var(--muted);font-size:13px">Laporan #: <strong>PS-20251109-0001</strong></div>
+            </div>
+            <div style="text-align:right">
+              <div style="font-size:12px;color:var(--muted)">Status</div>
+              <div style="font-weight:800;color:var(--danger)">DIDUGA PENIPU</div>
+            </div>
+          </div>
+
+          <div style="margin-top:12px">
+            <div style="font-size:13px;color:var(--muted)">Statistik Bukti</div>
+            <div style="display:flex;gap:8px;margin-top:8px">
+              <div style="flex:1;background:linear-gradient(180deg,rgba(11,97,255,0.06),transparent);padding:8px;border-radius:8px;text-align:center">
+                <div style="font-size:18px;font-weight:800">3</div>
+                <div style="font-size:12px;color:var(--muted)">Total Screenshot</div>
+              </div>
+              <div style="flex:1;background:linear-gradient(180deg,rgba(255,86,86,0.06),transparent);padding:8px;border-radius:8px;text-align:center">
+                <div style="font-size:18px;font-weight:800">1</div>
+                <div style="font-size:12px;color:var(--muted)">Flag</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:12px;display:flex;gap:8px;flex-direction:column">
+            <a class="pill" href="mailto:intel@patrolisiber.id?subject=Laporan%20Scam%206285693407959">Laporkan ke Patrolisiber</a>
+            <a class="pill" style="background:linear-gradient(90deg,#0b61ff,#4aa3ff);color:white" href="mailto:legal@platform?subject=Request%20Takedown">Request Take-down</a>
+          </div>
+        </aside>
+      </div>
+
+      <footer>
+        <div style="margin-top:12px;color:var(--muted);font-size:13px">Dokumen ini dibuat untuk keperluan laporan ke <strong>patrolisiber.id</strong>. Informasi berasal dari bukti visual yang diserahkan pelapor. Gunakan phrasing "diduga" jika dibagikan lebih lanjut.</div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
